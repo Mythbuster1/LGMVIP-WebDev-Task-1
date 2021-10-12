@@ -1,0 +1,22 @@
+@use '../var' as *;
+
+
+#pricing #co{
+    width: 60%;
+    .card{
+        border: none;
+    .card-body {
+        p{
+            font-size: 11px !important;
+        }
+        #li{
+            font-size: 12px !important;
+            color: grey;
+        }
+        .card-footer{
+            border: none !important;
+            background: none !important;
+        }
+    }
+}
+}

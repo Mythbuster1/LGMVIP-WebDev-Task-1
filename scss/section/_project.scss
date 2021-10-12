@@ -1,0 +1,25 @@
+@use '../var' as *;
+
+#projects .card{
+    .card-body{
+        background-color: #d3d3d37a;
+
+        p{
+            color: grey;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+
+        &:hover{;
+           
+            img{
+                opacity: 60%;
+                transition: 0.5s;
+            }
+            .card-body{
+                background-color: #fee26c;
+                transition: 0.8s;
+            }
+        }
+}

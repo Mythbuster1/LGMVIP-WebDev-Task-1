@@ -1,0 +1,31 @@
+@use '../var' as *;
+
+#footer .container{
+    width: 60%;
+    .row{
+        .col{
+            .card{
+                .card-header{
+                    background: none !important;
+                }
+                .card-body{
+                    
+                    ul{
+                        list-style-type: none;
+                        justify-content: center;
+                        padding: 0px 5px 0px 5px;
+                        a{
+                            margin: 0px 10px 0px 10px;
+                            i{
+                                font-size: 20px;
+                                color: black;
+                            }
+                        }
+                    }
+                    
+                }
+               
+            }
+        }
+    }
+}

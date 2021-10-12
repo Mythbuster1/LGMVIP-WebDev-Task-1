@@ -1,0 +1,25 @@
+@use '../var' as *;
+
+#video .container-fluid{
+    background:  #61497c;
+    height: 600px;
+    .row{
+        h1{
+            color: white;
+        }
+    }
+    .wrapper{
+        max-height: 500px;
+        overflow-x: auto;
+        .item{
+            height: 400px;
+            min-width: 600px;
+            background: red;
+            margin-right: 20px;
+            iframe{
+                height: 400px;
+                width: 100%;
+            }
+        }
+    }
+}

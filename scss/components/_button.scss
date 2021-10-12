@@ -1,0 +1,31 @@
+@use '../var' as *;
+
+.button{
+    &-primary{
+        background-color: $secondary_base;
+        border: none;
+        margin-right: 2px;
+        font-size: 15px;
+        padding: 3px 10px;
+        border-radius: 4px;
+        line-height: 1.5rem;
+        
+        &:hover{
+            background-color: $primary_base;
+            color: $white !important;
+        }
+    }
+    &-sec{
+        background-color:lightgrey;
+        border: none;
+        margin-right: 2px;
+        padding:5px 5px;
+        border-radius: 4px;
+
+        &:hover{
+            background-color: #fee26c;
+        }
+    }
+
+    
+}

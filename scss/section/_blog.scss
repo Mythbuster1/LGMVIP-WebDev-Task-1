@@ -1,0 +1,33 @@
+@use '../var' as *;
+
+#blog .container{
+    width: 60%;
+    .row{
+        .col{
+            .card{
+                border: none;;
+                .card-header{
+                    background: none;
+                    border: none;
+                    img{
+                        width: 200px;
+                        height: 100px;
+                    }
+                }
+                .card-body{
+                    h5{
+                        font-size: 15px !important;
+                        color: grey;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                    .card-footer{
+                        border: none;
+                        background: none;
+                    }
+                }
+            }
+        }
+    }
+}

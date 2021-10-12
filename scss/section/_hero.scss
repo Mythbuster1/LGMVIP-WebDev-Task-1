@@ -1,0 +1,42 @@
+@use '../var' as *;
+
+ #home #carouselExampleIndicators{
+    .carousel-inner{
+        @include media-breakpoint-down('sm'){
+            width: 100%;
+        }
+        .carousel-item{
+            height: 80vh;
+            width: 100vw;
+            position: relative;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                position: absolute;
+                inset: 0;
+                z-index: -1;
+            }
+        }
+    }
+    .carousel-indicators{
+            justify-content: left !important;
+            margin-left: 15%;
+            li{
+                right: 60% !important;
+                border-radius: 50%;
+                width: 8px !important;
+                height: 8px !important;
+            }
+        }
+        .carousel-caption{
+            position: absolute;
+            bottom: 20%!important;
+            text-align: left !important;
+            margin: auto;
+            @include media-breakpoint-down('sm'){
+                font-size: 10px !important;
+                bottom: 4rem !important;
+            }
+        }
+}
