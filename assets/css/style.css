@@ -22000,6 +22000,13 @@ textarea.form-control-lg {
     width: 99%;
   }
 }
+@media (max-width: 991.98px) {
+  #home #nav .container .navbar-collapse {
+    padding-left: 30px;
+    margin-top: 10px;
+    background-color: rgba(228, 214, 214, 0.705);
+  }
+}
 #home #nav .container .navbar-brand {
   color: white !important;
 }

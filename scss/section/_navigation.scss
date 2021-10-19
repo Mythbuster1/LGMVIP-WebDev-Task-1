@@ -14,6 +14,13 @@
         @include media-breakpoint-down('sm'){
             width: 99%;
         }
+        .navbar-collapse{
+            @include media-breakpoint-down('lg'){
+                padding-left: 30px;
+                margin-top: 10px;
+                background-color:rgba(228, 214, 214, 0.705);
+            }
+        }
         .navbar-brand{
             color: white !important;
         }
@@ -23,6 +30,7 @@
         .navbar-nav .nav-link:hover{
             color: #fdc109 !important;
         }
+        
     }
 }
 
