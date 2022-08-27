@@ -5,4 +5,4 @@ here in this repository i have created a single page fully responsive websites a
 Required websites is hosted by the github pages thorugh my profile.
 
 check the live demo for the same at :
-https://tarun691sharma.github.io/LGMVIP-WebDev-Task-1/
+https://mythbuster691.github.io/LGMVIP-WebDev-Task-1/#home
